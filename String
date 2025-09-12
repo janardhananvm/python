@@ -1,0 +1,15 @@
+age = 32
+
+weight = 1932.3
+
+shirt = 'blue'
+
+store = 'Nic\'s pizza is the "best" jhumbak'
+
+print(age)
+
+print(weight)
+
+print(shirt)
+
+print(store)
