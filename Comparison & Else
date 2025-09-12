@@ -1,0 +1,27 @@
+light_is_on = False
+
+if light_is_on:
+  print("the light is on")
+else:
+  print("the light is off")
+
+weight = 194.3
+
+if weight < 195:
+  print("You are under weight")
+
+age = 18.2
+
+if age > 18:
+  print("he/she is an adult")
+
+else:
+  print("he/she is a child")
+
+age1 = 12
+
+if age1 > 18:
+  print("he/she is an adult")
+
+else:
+  print("he/she is a child")
