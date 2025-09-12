@@ -1,0 +1,21 @@
+day = 4
+
+temp = -15
+
+weight = 78.4
+
+print(3+6)
+
+print(day+3)
+
+print(weight*2)
+
+print(weight/2)
+
+print(weight-2)
+
+code=10
+
+headweight = 1.2
+
+print(code*headweight)
