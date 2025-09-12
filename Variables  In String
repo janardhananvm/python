@@ -1,0 +1,7 @@
+day = 24
+
+month = "june"
+
+temp = 34.3
+
+print(f"it is {day} of the {month} & it is {temp} outside")
