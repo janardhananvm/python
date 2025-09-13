@@ -14,7 +14,7 @@ elif fortune == 2:
     
     fortune_text = "Today you'll have a tuff but worth day"
     
-else
+else :
     fortune_text = "Good luck"
     
-print(f" Your fortune content {fortune_text} & your lucky number is {lucky_number})
+print(f" Your fortune content {fortune_text} & your lucky number is {lucky_number}")
