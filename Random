@@ -1,0 +1,10 @@
+# cook your dish here
+import random
+
+var = random.randint(1,10)
+
+print(var)
+
+var = random.random();
+
+print(var)
