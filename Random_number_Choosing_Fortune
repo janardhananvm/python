@@ -1,0 +1,20 @@
+import random
+
+lucky_number = random.randint(1,100)
+
+print(f"Your lucky number for today is: {lucky_number}" )
+
+fortune = random.randint(1,3)
+
+if fortune == 1: 
+    
+    fortune_text = "Today you'll have a great day smooth"
+    
+elif fortune == 2:
+    
+    fortune_text = "Today you'll have a tuff but worth day"
+    
+else
+    fortune_text = "Good luck"
+    
+print(f" Your fortune content {fortune_text} & your lucky number is {lucky_number})
