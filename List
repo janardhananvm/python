@@ -1,0 +1,10 @@
+# cook your dish here
+fav_movies = [1,5,3,7,True,'Sura']
+
+fav_movies1 = ['a1','a2','a3']
+
+print(fav_movies)
+
+print(fav_movies1)
+
+print(fav_movies1[0],fav_movies1[1])
