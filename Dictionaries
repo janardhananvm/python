@@ -1,0 +1,27 @@
+# cook your dish here
+# // Key Value Pair based 
+
+cats = { "Jann":6 , "Tom":14,  "Sara": 8}
+
+dog = { "abc":"juice"}
+
+print(cats)
+
+print(dog)
+
+print(cats["Tom"])
+
+# only keys can be used -- this is an error -- print(cats[14])
+
+cats["Wilson"] = 14
+
+print(cats)
+
+
+del(cats["Tom"])
+
+print(cats)
+
+ints_and_bools = {1:True, 4:False, 5:True, "sd token": 1}
+
+print(ints_and_bools)
