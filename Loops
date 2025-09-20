@@ -1,0 +1,13 @@
+for number in range(10):
+    print("Hello")
+    print(number)
+    
+    
+fav_movies = ["1","2","3"]
+
+for movies in fav_movies:
+    print(movies)
+    
+for number in range(10000):
+    if number%2 == 0:
+        print(number)
