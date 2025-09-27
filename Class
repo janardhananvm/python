@@ -1,0 +1,83 @@
+import random
+
+## Instance
+
+
+class Dog:
+    pass #this is to move the code into next line
+    info = "Rpsi  is moody lady dog and smelly little creature who runs on eggs and chicken. it is smelly butt"
+
+    def __init__(self): #when the instance of the class is created then it would call this function
+        print("I'm Rosi Periappa!!")
+        print(random.randint(1,30))
+        #######
+        self.lucky_num = random.randint(1,20)
+
+print(Dog.info)
+
+Dog() #individual instance of the class
+Dog() 
+Dog() 
+Dog() 
+Dog() 
+Dog() 
+
+
+#####
+
+dog1 = Dog()
+dog2 = Dog()
+
+print ( "dog1 instance", dog1.lucky_num )
+print ( "dog2 instance", dog2.lucky_num )
+
+######
+
+dog1.name = "Jimmy"
+
+print(dog1.name)
+
+###############################
+
+class Cat:
+
+    def __init__(self,name):
+        self.lucky_number = random.randint(1,20)
+        self.catname = name
+        print(f"I'm {name}")
+        print("I'm not Rosi ::")
+
+cat1 = Cat("Pixy")
+print(cat1.catname)
+print(cat1.lucky_number)
+
+
+#######################
+
+##Method template
+
+class saree:
+    info = "There are wide variety of sarees in which Sungudi is best"
+
+    def __init__(self, name):
+        print(random.randint(1,304))
+        print(name)
+        self.name = name;
+        self.lucky_number = random.randint(1,304)
+
+    def options(self, sareetype):
+        print("Tissue / Sungudi")
+        print(f"Saree name {sareetype}")
+        
+    def area(self):
+        print(self.height)
+        return self.height * self.height
+
+
+saree1 = saree("test")
+
+saree1.options("linen")
+
+saree1.height = 10
+
+saree1.area()
